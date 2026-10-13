@@ -42,7 +42,6 @@ nums = [int(x) for x in nums]
 nums.sort()
 
 def check(val):
-    pre = -1
     cnt = 0
     for i, x in enumerate(nums[1:], 1):
         if x - nums[i - 1] <= val:
